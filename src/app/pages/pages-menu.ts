@@ -64,11 +64,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
         title: 'عمليات توسيط ',
         children: [
           {
-            title: 'مشتريات محلية',
+            title: ' توسيط بإعتماد',
             link: '/pages/forms/inputs',
           },
           {
-            title: 'مشتريات أجنبية',
+            title: 'توسيط برسم تحصيل',
             link: '/pages/forms/inputs',
           },
         ]

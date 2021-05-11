@@ -58,7 +58,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'Form Layouts',

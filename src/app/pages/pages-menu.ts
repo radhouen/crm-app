@@ -58,7 +58,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'مشتريات أجنبية',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'عمليات توسيط ',
@@ -71,7 +71,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'توسيط برسم تحصيل',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'متابعة الشحنات ',
@@ -87,8 +87,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
           {
             title: 'متابعة الاستلامات ',
             link: '/pages/forms/inputs',
-          }
-        ]
+          },
+        ],
       },
       {
         title: 'الإعدادات',
@@ -101,10 +101,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'إضافة مورد',
             link: '/pages/forms/inputs',
           },
-        ]
-      }
+        ],
+      },
     ],
-  } ,
+  },
   {
     title: 'مخازن ومبيعات',
     icon: 'layout-outline',
@@ -120,7 +120,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'عمليات توسيط ',
@@ -133,7 +133,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'متابعة الشحنات ',
@@ -146,7 +146,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'الإعدادات',
@@ -159,8 +159,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
-      }
+        ],
+      },
     ],
   },
   {
@@ -178,7 +178,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'عمليات توسيط ',
@@ -191,7 +191,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'متابعة الشحنات ',
@@ -204,7 +204,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'الإعدادات',
@@ -217,8 +217,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
-      }
+        ],
+      },
     ],
   },
   {
@@ -236,7 +236,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'عمليات توسيط ',
@@ -249,7 +249,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'متابعة الشحنات ',
@@ -262,7 +262,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'الإعدادات',
@@ -275,8 +275,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
-      }
+        ],
+      },
     ],
   },
   {
@@ -294,7 +294,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'عمليات توسيط ',
@@ -307,7 +307,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'متابعة الشحنات ',
@@ -320,7 +320,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
+        ],
       },
       {
         title: 'الإعدادات',
@@ -333,11 +333,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
             title: 'child test 2',
             link: '/pages/forms/inputs',
           },
-        ]
-      }
+        ],
+      },
     ],
-  }
-  //,
+  },
+  // ,
   // {
   //   title: 'UI Features',
   //   icon: 'keypad-outline',

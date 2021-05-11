@@ -12,8 +12,8 @@ import {
 export const routes: Routes = [
   {
     path: 'pages',
-    loadChildren: () => import('./pages/pages.module')
-      .then(m => m.PagesModule),
+    loadChildren: () =>
+      import('./pages/pages.module').then((m) => m.PagesModule),
   },
   {
     path: 'auth',
@@ -57,5 +57,4 @@ const config: ExtraOptions = {
   imports: [RouterModule.forRoot(routes, config)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {
-}
+export class AppRoutingModule {}

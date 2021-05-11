@@ -6,16 +6,18 @@
 import { Component, OnInit } from '@angular/core';
 import { AnalyticsService } from './@core/utils/analytics.service';
 import { SeoService } from './@core/utils/seo.service';
-import {NbLayoutDirection, NbLayoutDirectionService} from "@nebular/theme";
+import { NbLayoutDirection, NbLayoutDirectionService } from '@nebular/theme';
 
 @Component({
   selector: 'ngx-app',
   template: '<router-outlet></router-outlet>',
 })
 export class AppComponent implements OnInit {
-
-  constructor(private analytics: AnalyticsService, private  directionService: NbLayoutDirectionService, private seoService: SeoService) {
-  }
+  constructor(
+    private analytics: AnalyticsService,
+    private directionService: NbLayoutDirectionService,
+    private seoService: SeoService,
+  ) {}
 
   ngOnInit(): void {
     this.analytics.trackPageViews();

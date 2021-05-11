@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import {NbLayoutDirection, NbLayoutDirectionService} from "@nebular/theme";
+import {Component, OnInit} from '@angular/core';
+import {NbLayoutDirection, NbLayoutDirectionService} from '@nebular/theme';
 @Component({
   selector: 'ngx-one-column-layout',
   styleUrls: ['./one-column.layout.scss'],
@@ -23,7 +23,7 @@ import {NbLayoutDirection, NbLayoutDirectionService} from "@nebular/theme";
     </nb-layout>
   `,
 })
-export class OneColumnLayoutComponent {
+export class OneColumnLayoutComponent implements OnInit {
 
   constructor(private  directionService: NbLayoutDirectionService) {
   }

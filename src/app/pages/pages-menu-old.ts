@@ -1,255 +1,255 @@
-import { NbMenuItem } from '@nebular/theme';
+import { NbMenuItem } from "@nebular/theme";
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'E-commerce',
-    icon: 'shopping-cart-outline',
-    link: '/pages/dashboard',
+    title: "E-commerce",
+    icon: "shopping-cart-outline",
+    link: "/pages/dashboard",
     home: true,
   },
   {
-    title: 'IoT Dashboard',
-    icon: 'home-outline',
-    link: '/pages/iot-dashboard',
+    title: "IoT Dashboard",
+    icon: "home-outline",
+    link: "/pages/iot-dashboard",
   },
   {
-    title: 'FEATURES',
+    title: "FEATURES",
     group: true,
   },
   {
-    title: 'Layout',
-    icon: 'layout-outline',
+    title: "Layout",
+    icon: "layout-outline",
     children: [
       {
-        title: 'Stepper',
-        link: '/pages/layout/stepper',
+        title: "Stepper",
+        link: "/pages/layout/stepper",
       },
       {
-        title: 'List',
-        link: '/pages/layout/list',
+        title: "List",
+        link: "/pages/layout/list",
       },
       {
-        title: 'Infinite List',
-        link: '/pages/layout/infinite-list',
+        title: "Infinite List",
+        link: "/pages/layout/infinite-list",
       },
       {
-        title: 'Accordion',
-        link: '/pages/layout/accordion',
+        title: "Accordion",
+        link: "/pages/layout/accordion",
       },
       {
-        title: 'Tabs',
-        pathMatch: 'prefix',
-        link: '/pages/layout/tabs',
+        title: "Tabs",
+        pathMatch: "prefix",
+        link: "/pages/layout/tabs",
       },
     ],
   },
   {
-    title: 'Forms',
-    icon: 'edit-2-outline',
+    title: "Forms",
+    icon: "edit-2-outline",
     children: [
       {
-        title: 'Form Inputs',
+        title: "Form Inputs",
         children: [
           {
-            title: 'child test 1',
-            link: '/pages/forms/inputs',
+            title: "child test 1",
+            link: "/pages/forms/inputs",
           },
           {
-            title: 'child test 2',
-            link: '/pages/forms/inputs',
+            title: "child test 2",
+            link: "/pages/forms/inputs",
           },
-        ]
+        ],
       },
       {
-        title: 'Form Layouts',
-        link: '/pages/forms/layouts',
+        title: "Form Layouts",
+        link: "/pages/forms/layouts",
       },
       {
-        title: 'Buttons',
-        link: '/pages/forms/buttons',
+        title: "Buttons",
+        link: "/pages/forms/buttons",
       },
       {
-        title: 'Datepicker',
-        link: '/pages/forms/datepicker',
-      },
-    ],
-  },
-  {
-    title: 'UI Features',
-    icon: 'keypad-outline',
-    link: '/pages/ui-features',
-    children: [
-      {
-        title: 'Grid',
-        link: '/pages/ui-features/grid',
-      },
-      {
-        title: 'Icons',
-        link: '/pages/ui-features/icons',
-      },
-      {
-        title: 'Typography',
-        link: '/pages/ui-features/typography',
-      },
-      {
-        title: 'Animated Searches',
-        link: '/pages/ui-features/search-fields',
+        title: "Datepicker",
+        link: "/pages/forms/datepicker",
       },
     ],
   },
   {
-    title: 'Modal & Overlays',
-    icon: 'browser-outline',
+    title: "UI Features",
+    icon: "keypad-outline",
+    link: "/pages/ui-features",
     children: [
       {
-        title: 'Dialog',
-        link: '/pages/modal-overlays/dialog',
+        title: "Grid",
+        link: "/pages/ui-features/grid",
       },
       {
-        title: 'Window',
-        link: '/pages/modal-overlays/window',
+        title: "Icons",
+        link: "/pages/ui-features/icons",
       },
       {
-        title: 'Popover',
-        link: '/pages/modal-overlays/popover',
+        title: "Typography",
+        link: "/pages/ui-features/typography",
       },
       {
-        title: 'Toastr',
-        link: '/pages/modal-overlays/toastr',
-      },
-      {
-        title: 'Tooltip',
-        link: '/pages/modal-overlays/tooltip',
+        title: "Animated Searches",
+        link: "/pages/ui-features/search-fields",
       },
     ],
   },
   {
-    title: 'Extra Components',
-    icon: 'message-circle-outline',
+    title: "Modal & Overlays",
+    icon: "browser-outline",
     children: [
       {
-        title: 'Calendar',
-        link: '/pages/extra-components/calendar',
+        title: "Dialog",
+        link: "/pages/modal-overlays/dialog",
       },
       {
-        title: 'Progress Bar',
-        link: '/pages/extra-components/progress-bar',
+        title: "Window",
+        link: "/pages/modal-overlays/window",
       },
       {
-        title: 'Spinner',
-        link: '/pages/extra-components/spinner',
+        title: "Popover",
+        link: "/pages/modal-overlays/popover",
       },
       {
-        title: 'Alert',
-        link: '/pages/extra-components/alert',
+        title: "Toastr",
+        link: "/pages/modal-overlays/toastr",
       },
       {
-        title: 'Calendar Kit',
-        link: '/pages/extra-components/calendar-kit',
-      },
-      {
-        title: 'Chat',
-        link: '/pages/extra-components/chat',
+        title: "Tooltip",
+        link: "/pages/modal-overlays/tooltip",
       },
     ],
   },
   {
-    title: 'Maps',
-    icon: 'map-outline',
+    title: "Extra Components",
+    icon: "message-circle-outline",
     children: [
       {
-        title: 'Google Maps',
-        link: '/pages/maps/gmaps',
+        title: "Calendar",
+        link: "/pages/extra-components/calendar",
       },
       {
-        title: 'Leaflet Maps',
-        link: '/pages/maps/leaflet',
+        title: "Progress Bar",
+        link: "/pages/extra-components/progress-bar",
       },
       {
-        title: 'Bubble Maps',
-        link: '/pages/maps/bubble',
+        title: "Spinner",
+        link: "/pages/extra-components/spinner",
       },
       {
-        title: 'Search Maps',
-        link: '/pages/maps/searchmap',
+        title: "Alert",
+        link: "/pages/extra-components/alert",
+      },
+      {
+        title: "Calendar Kit",
+        link: "/pages/extra-components/calendar-kit",
+      },
+      {
+        title: "Chat",
+        link: "/pages/extra-components/chat",
       },
     ],
   },
   {
-    title: 'Charts',
-    icon: 'pie-chart-outline',
+    title: "Maps",
+    icon: "map-outline",
     children: [
       {
-        title: 'Echarts',
-        link: '/pages/charts/echarts',
+        title: "Google Maps",
+        link: "/pages/maps/gmaps",
       },
       {
-        title: 'Charts.js',
-        link: '/pages/charts/chartjs',
+        title: "Leaflet Maps",
+        link: "/pages/maps/leaflet",
       },
       {
-        title: 'D3',
-        link: '/pages/charts/d3',
+        title: "Bubble Maps",
+        link: "/pages/maps/bubble",
+      },
+      {
+        title: "Search Maps",
+        link: "/pages/maps/searchmap",
       },
     ],
   },
   {
-    title: 'Editors',
-    icon: 'text-outline',
+    title: "Charts",
+    icon: "pie-chart-outline",
     children: [
       {
-        title: 'TinyMCE',
-        link: '/pages/editors/tinymce',
+        title: "Echarts",
+        link: "/pages/charts/echarts",
       },
       {
-        title: 'CKEditor',
-        link: '/pages/editors/ckeditor',
+        title: "Charts.js",
+        link: "/pages/charts/chartjs",
+      },
+      {
+        title: "D3",
+        link: "/pages/charts/d3",
       },
     ],
   },
   {
-    title: 'Tables & Data',
-    icon: 'grid-outline',
+    title: "Editors",
+    icon: "text-outline",
     children: [
       {
-        title: 'Smart Table',
-        link: '/pages/tables/smart-table',
+        title: "TinyMCE",
+        link: "/pages/editors/tinymce",
       },
       {
-        title: 'Tree Grid',
-        link: '/pages/tables/tree-grid',
+        title: "CKEditor",
+        link: "/pages/editors/ckeditor",
       },
     ],
   },
   {
-    title: 'Miscellaneous',
-    icon: 'shuffle-2-outline',
+    title: "Tables & Data",
+    icon: "grid-outline",
     children: [
       {
-        title: '404',
-        link: '/pages/miscellaneous/404',
+        title: "Smart Table",
+        link: "/pages/tables/smart-table",
+      },
+      {
+        title: "Tree Grid",
+        link: "/pages/tables/tree-grid",
       },
     ],
   },
   {
-    title: 'Auth',
-    icon: 'lock-outline',
+    title: "Miscellaneous",
+    icon: "shuffle-2-outline",
     children: [
       {
-        title: 'Login',
-        link: '/auth/login',
+        title: "404",
+        link: "/pages/miscellaneous/404",
+      },
+    ],
+  },
+  {
+    title: "Auth",
+    icon: "lock-outline",
+    children: [
+      {
+        title: "Login",
+        link: "/auth/login",
       },
       {
-        title: 'Register',
-        link: '/auth/register',
+        title: "Register",
+        link: "/auth/register",
       },
       {
-        title: 'Request Password',
-        link: '/auth/request-password',
+        title: "Request Password",
+        link: "/auth/request-password",
       },
       {
-        title: 'Reset Password',
-        link: '/auth/reset-password',
+        title: "Reset Password",
+        link: "/auth/reset-password",
       },
     ],
   },

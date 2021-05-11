@@ -1,10 +1,10 @@
-import { NbMenuItem } from "@nebular/theme";
+import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: "الرئيسية",
-    icon: "shopping-cart-outline",
-    link: "/pages/dashboard",
+    title: 'الرئيسية',
+    icon: 'shopping-cart-outline',
+    link: '/pages/dashboard',
     home: true,
   },
   // {
@@ -13,7 +13,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //   link: '/pages/iot-dashboard',
   // },
   {
-    title: "الميزات",
+    title: 'الميزات',
     group: true,
   },
   // {
@@ -44,300 +44,300 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //   ],
   // },
   {
-    title: "المشتريات",
-    icon: "edit-2-outline",
+    title: 'المشتريات',
+    icon: 'edit-2-outline',
     children: [
       {
-        title: "مشتريات",
+        title: 'مشتريات',
         children: [
           {
-            title: "مشتريات محلية",
-            link: "/pages/forms/inputs",
+            title: 'مشتريات محلية',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "مشتريات أجنبية",
-            link: "/pages/forms/inputs",
+            title: 'مشتريات أجنبية',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "عمليات توسيط ",
+        title: 'عمليات توسيط ',
         children: [
           {
-            title: "مشتريات محلية",
-            link: "/pages/forms/inputs",
+            title: 'مشتريات محلية',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "مشتريات أجنبية",
-            link: "/pages/forms/inputs",
+            title: 'مشتريات أجنبية',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "متابعة الشحنات ",
+        title: 'متابعة الشحنات ',
         children: [
           {
-            title: "متابعة الحاويات",
-            link: "/pages/forms/inputs",
+            title: 'متابعة الحاويات',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "متابعة مخلصي الجمارك ",
-            link: "/pages/forms/inputs",
+            title: 'متابعة مخلصي الجمارك ',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "متابعة الاستلامات ",
-            link: "/pages/forms/inputs",
+            title: 'متابعة الاستلامات ',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "الإعدادات",
+        title: 'الإعدادات',
         children: [
           {
-            title: "إضافة بضاعة",
-            link: "/pages/forms/inputs",
+            title: 'إضافة بضاعة',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "إضافة مورد",
-            link: "/pages/forms/inputs",
+            title: 'إضافة مورد',
+            link: '/pages/forms/inputs',
           },
         ],
       },
     ],
   },
   {
-    title: "مخازن ومبيعات",
-    icon: "layout-outline",
+    title: 'مخازن ومبيعات',
+    icon: 'layout-outline',
     children: [
       {
-        title: "مشتريات",
+        title: 'مشتريات',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "عمليات توسيط ",
+        title: 'عمليات توسيط ',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "متابعة الشحنات ",
+        title: 'متابعة الشحنات ',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "الإعدادات",
+        title: 'الإعدادات',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
     ],
   },
   {
-    title: "المالية",
-    icon: "keypad-outline",
+    title: 'المالية',
+    icon: 'keypad-outline',
     children: [
       {
-        title: "مشتريات",
+        title: 'مشتريات',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "عمليات توسيط ",
+        title: 'عمليات توسيط ',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "متابعة الشحنات ",
+        title: 'متابعة الشحنات ',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "الإعدادات",
+        title: 'الإعدادات',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
     ],
   },
   {
-    title: "شؤون الموظفين",
-    icon: "browser-outline",
+    title: 'شؤون الموظفين',
+    icon: 'browser-outline',
     children: [
       {
-        title: "مشتريات",
+        title: 'مشتريات',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "عمليات توسيط ",
+        title: 'عمليات توسيط ',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "متابعة الشحنات ",
+        title: 'متابعة الشحنات ',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "الإعدادات",
+        title: 'الإعدادات',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
     ],
   },
   {
-    title: "المحاسبة",
-    icon: "message-circle-outline",
+    title: 'المحاسبة',
+    icon: 'message-circle-outline',
     children: [
       {
-        title: "مشتريات",
+        title: 'مشتريات',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "عمليات توسيط ",
+        title: 'عمليات توسيط ',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "متابعة الشحنات ",
+        title: 'متابعة الشحنات ',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "الإعدادات",
+        title: 'الإعدادات',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
     ],
   },
-  //,
+  // ,
   // {
   //   title: 'UI Features',
   //   icon: 'keypad-outline',

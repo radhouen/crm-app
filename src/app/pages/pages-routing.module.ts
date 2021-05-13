@@ -30,6 +30,11 @@ const routes: Routes = [
           import('./forms/forms.module').then((m) => m.FormsModule),
       },
       {
+        path: 'purchase',
+        loadChildren: () =>
+          import('./purchase/purchase.module').then((m) => m.PurchaseModule),
+      },
+      {
         path: 'ui-features',
         loadChildren: () =>
           import('./ui-features/ui-features.module').then(

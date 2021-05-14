@@ -23,6 +23,12 @@
     cursor: pointer;
   }
 
+  nb-select {
+    text-align-last:right;
+    padding-right: 29px;
+    direction: rtl;
+  }
+
   ::ng-deep nb-search button {
     padding: 0!important;
   }

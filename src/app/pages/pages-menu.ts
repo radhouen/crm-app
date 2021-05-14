@@ -1,10 +1,10 @@
-import { NbMenuItem } from "@nebular/theme";
+import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: "الرئيسية",
-    icon: "shopping-cart-outline",
-    link: "/pages/dashboard",
+    title: 'الرئيسية',
+    icon: 'shopping-cart-outline',
+    link: '/pages/dashboard',
     home: true,
   },
   // {
@@ -13,7 +13,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //   link: '/pages/iot-dashboard',
   // },
   {
-    title: "الميزات",
+    title: 'الميزات',
     group: true,
   },
   // {
@@ -44,356 +44,356 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //   ],
   // },
   {
-    title: "المشتريات",
-    icon: "edit-2-outline",
+    title: 'المشتريات',
+    icon: 'edit-2-outline',
     children: [
       {
-        title: "مشتريات",
+        title: 'مشتريات',
         children: [
           {
-            title: "مشتريات محلية",
-            link: "/pages/purchase/inputs",
+            title: 'مشتريات محلية',
+            link: '/pages/purchase/inputs',
           },
           {
-            title: "مشتريات أجنبية",
-            link: "/pages/forms/inputs",
+            title: 'مشتريات أجنبية',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "عمليات توسيط ",
+        title: 'عمليات توسيط ',
         children: [
           {
-            title: " توسيط بإعتماد",
-            link: "/pages/forms/inputs",
+            title: ' توسيط بإعتماد',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "توسيط برسم تحصيل",
-            link: "/pages/forms/inputs",
+            title: 'توسيط برسم تحصيل',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "متابعة الشحنات ",
+        title: 'متابعة الشحنات ',
         children: [
           {
-            title: "متابعة الحاويات",
-            link: "/pages/forms/inputs",
+            title: 'متابعة الحاويات',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "متابعة مخلصي الجمارك ",
-            link: "/pages/forms/inputs",
+            title: 'متابعة مخلصي الجمارك ',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "متابعة الاستلامات ",
-            link: "/pages/forms/inputs",
+            title: 'متابعة الاستلامات ',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "الإعدادات",
+        title: 'الإعدادات',
         children: [
           {
-            title: "إضافة بضاعة",
-            link: "/pages/forms/inputs",
+            title: 'إضافة بضاعة',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "إضافة مورد",
-            link: "/pages/forms/inputs",
+            title: 'إضافة مورد',
+            link: '/pages/forms/inputs',
           },
         ],
       },
     ],
   },
   {
-    title: "مخازن ومبيعات",
-    icon: "layout-outline",
+    title: 'مخازن ومبيعات',
+    icon: 'layout-outline',
     children: [
       {
-        title: "مخازن",
+        title: 'مخازن',
         children: [
           {
-            title: "إذن إستلام",
-            link: "/pages/forms/inputs",
+            title: 'إذن إستلام',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "إذن صرف",
-            link: "/pages/forms/inputs",
+            title: 'إذن صرف',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "نقل مخزون",
-            link: "/pages/forms/inputs",
+            title: 'نقل مخزون',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "مسترجعات",
-            link: "/pages/forms/inputs",
+            title: 'مسترجعات',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "تعديل مخزون",
-            link: "/pages/forms/inputs",
+            title: 'تعديل مخزون',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "مبيعات",
+        title: 'مبيعات',
         children: [
           {
-            title: "فواتير",
-            link: "/pages/forms/inputs",
+            title: 'فواتير',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "تخفيضات",
-            link: "/pages/forms/inputs",
+            title: 'تخفيضات',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "عروض",
-            link: "/pages/forms/inputs",
+            title: 'عروض',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "إيصال قبض",
-            link: "/pages/forms/inputs",
+            title: 'إيصال قبض',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "تقارير",
-            link: "/pages/forms/inputs",
+            title: 'تقارير',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "الإعدادات",
+        title: 'الإعدادات',
         children: [
           {
-            title: "إضافة مخزون",
-            link: "/pages/forms/inputs",
+            title: 'إضافة مخزون',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "إضافة زبون",
-            link: "/pages/forms/inputs",
+            title: 'إضافة زبون',
+            link: '/pages/forms/inputs',
           },
         ],
       },
     ],
   },
   {
-    title: "المالية",
-    icon: "keypad-outline",
+    title: 'المالية',
+    icon: 'keypad-outline',
     children: [
       {
-        title: "الخزينة",
+        title: 'الخزينة',
         children: [
           {
-            title: "ايرادات",
-            link: "/pages/forms/inputs",
+            title: 'ايرادات',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "مصروفات",
-            link: "/pages/forms/inputs",
+            title: 'مصروفات',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "المصارف",
+        title: 'المصارف',
         children: [
           {
-            title: "ايرادات",
-            link: "/pages/forms/inputs",
+            title: 'ايرادات',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "مصروفات",
-            link: "/pages/forms/inputs",
+            title: 'مصروفات',
+            link: '/pages/forms/inputs',
           },
         ],
       },
     ],
   },
   {
-    title: "شؤون الموظفين",
-    icon: "browser-outline",
+    title: 'شؤون الموظفين',
+    icon: 'browser-outline',
     children: [
       {
-        title: "الموظفين",
+        title: 'الموظفين',
         children: [
           {
-            title: "قائمة الموظفين",
-            link: "/pages/forms/inputs",
+            title: 'قائمة الموظفين',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "إضافة",
-            link: "/pages/forms/inputs",
+            title: 'إضافة',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "المرتبات",
+        title: 'المرتبات',
         children: [
           {
-            title: "قائمة المرتبات",
-            link: "/pages/forms/inputs",
+            title: 'قائمة المرتبات',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "إضافة",
-            link: "/pages/forms/inputs",
+            title: 'إضافة',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "اجازات",
+        title: 'اجازات',
         children: [
           {
-            title: "طلبات",
-            link: "/pages/forms/inputs",
+            title: 'طلبات',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "موافقات",
-            link: "/pages/forms/inputs",
+            title: 'موافقات',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "رفض",
-            link: "/pages/forms/inputs",
+            title: 'رفض',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "ملف",
+        title: 'ملف',
         children: [
           {
-            title: "قائمة الملف",
-            link: "/pages/forms/inputs",
+            title: 'قائمة الملف',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "موافقات",
-            link: "/pages/forms/inputs",
+            title: 'موافقات',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "رفض",
-            link: "/pages/forms/inputs",
+            title: 'رفض',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "الحضور",
+        title: 'الحضور',
         children: [
           {
-            title: "تقرير يومي",
-            link: "/pages/forms/inputs",
+            title: 'تقرير يومي',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "تقرير شهري",
-            link: "/pages/forms/inputs",
+            title: 'تقرير شهري',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "تقرير سنوي",
-            link: "/pages/forms/inputs",
+            title: 'تقرير سنوي',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "رسائل",
+        title: 'رسائل',
         children: [
           {
-            title: "قائمة الرسائل",
-            link: "/pages/forms/inputs",
+            title: 'قائمة الرسائل',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "إضافة",
-            link: "/pages/forms/inputs",
+            title: 'إضافة',
+            link: '/pages/forms/inputs',
           },
         ],
       },
     ],
   },
   {
-    title: "المحاسبة",
-    icon: "message-circle-outline",
+    title: 'المحاسبة',
+    icon: 'message-circle-outline',
     children: [
       {
-        title: "اليومية",
+        title: 'اليومية',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "قيد اليومية",
+        title: 'قيد اليومية',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "تسوية المصرف",
+        title: 'تسوية المصرف',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "ميزان المراجعة",
+        title: 'ميزان المراجعة',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "التسويات السنوية",
+        title: 'التسويات السنوية',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "الاهلاكات",
+        title: 'الاهلاكات',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },
       {
-        title: "الاعدادات",
+        title: 'الاعدادات',
         children: [
           {
-            title: "child test 1",
-            link: "/pages/forms/inputs",
+            title: 'child test 1',
+            link: '/pages/forms/inputs',
           },
           {
-            title: "child test 2",
-            link: "/pages/forms/inputs",
+            title: 'child test 2',
+            link: '/pages/forms/inputs',
           },
         ],
       },

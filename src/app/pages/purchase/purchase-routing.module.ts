@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { PurchaseComponent } from './purchase.component';
 import { FormInputsComponent } from './form-inputs/form-inputs.component';
-import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
+import { MainComponent } from './main/main.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 
@@ -17,12 +17,12 @@ const routes: Routes = [
         component: FormInputsComponent,
       },
       {
-        path: 'layouts',
-        component: FormLayoutsComponent,
+        path: 'main',
+        component: MainComponent,
       },
       {
         path: 'layouts',
-        component: FormLayoutsComponent,
+        component: MainComponent,
       },
       {
         path: 'buttons',

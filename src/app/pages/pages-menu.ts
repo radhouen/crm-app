@@ -52,7 +52,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         children: [
           {
             title: 'مشتريات محلية',
-            link: '/pages/purchase/inputs',
+            link: '/pages/purchase/main',
           },
           {
             title: 'مشتريات أجنبية',

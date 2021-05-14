@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-//import {PurchaseService } from '../../../@core/mock/purchase.service'
+// import {PurchaseService } from '../../../@core/mock/purchase.service'
 @Component({
   selector: 'ngx-form-inputs',
   styleUrls: ['./form-inputs.component.scss'],

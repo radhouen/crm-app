@@ -6,7 +6,7 @@ export interface Purchase {
   price: number;
   weight: number;
   startDate: Date;
-  endDate: Date
+  endDate: Date;
 }
 
 // export interface Contacts {

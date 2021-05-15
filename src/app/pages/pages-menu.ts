@@ -78,7 +78,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         children: [
           {
             title: 'متابعة الحاويات',
-            link: '/pages/forms/inputs',
+            link: '/pages/purchase/container-main',
           },
           {
             title: 'متابعة مخلصي الجمارك ',

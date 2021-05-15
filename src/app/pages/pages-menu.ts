@@ -56,7 +56,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
           },
           {
             title: 'مشتريات أجنبية',
-            link: '/pages/forms/inputs',
+            link: '/pages/purchase/outside',
           },
         ],
       },

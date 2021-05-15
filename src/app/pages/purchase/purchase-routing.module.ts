@@ -8,6 +8,8 @@ import { CenteringMainComponent } from './centering-main/centering-main.componen
 import { CenteringNewComponent } from './centering-new/centering-new.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import {OutsideComponent} from './outside/outside.component';
+import {OutsideDetailComponent} from './outside-detail/outside-detail.component';
 
 const routes: Routes = [
   {
@@ -21,6 +23,14 @@ const routes: Routes = [
       {
         path: 'main',
         component: MainComponent,
+      },
+      {
+        path: 'outside',
+        component: OutsideComponent,
+      },
+      {
+        path: 'outside-detail',
+        component: OutsideDetailComponent,
       },
       {
         path: 'layouts',

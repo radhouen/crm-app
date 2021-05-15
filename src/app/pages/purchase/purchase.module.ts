@@ -23,6 +23,7 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { FormsModule as ngFormsModule } from '@angular/forms';
 import {OutsideComponent} from './outside/outside.component';
 import {OutsideDetailComponent} from './outside-detail/outside-detail.component';
+import {BrokeredFeeComponent} from './brokered-fee/brokered-fee.component';
 
 @NgModule({
   imports: [
@@ -50,6 +51,7 @@ import {OutsideDetailComponent} from './outside-detail/outside-detail.component'
     DatepickerComponent,
     OutsideComponent,
     OutsideDetailComponent,
+    BrokeredFeeComponent,
   ],
 })
 export class PurchaseModule { }

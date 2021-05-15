@@ -65,7 +65,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         children: [
           {
             title: ' توسيط بإعتماد',
-            link: '/pages/forms/inputs',
+            link: '/pages/purchase/centering-main',
           },
           {
             title: 'توسيط برسم تحصيل',

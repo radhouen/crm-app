@@ -12,6 +12,7 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import {OutsideComponent} from './outside/outside.component';
 import {OutsideDetailComponent} from './outside-detail/outside-detail.component';
+import {BrokeredFeeComponent} from './brokered-fee/brokered-fee.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
       {
         path: 'centering-main',
         component: CenteringMainComponent,
+      },
+      {
+        path: 'brokered-fee',
+        component: BrokeredFeeComponent,
       },
       {
         path: 'centering-new',

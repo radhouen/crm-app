@@ -69,7 +69,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
           },
           {
             title: 'توسيط برسم تحصيل',
-            link: '/pages/forms/inputs',
+            link: '/pages/purchase/brokered-fee',
           },
         ],
       },

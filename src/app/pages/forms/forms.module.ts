@@ -19,6 +19,7 @@ import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { FormsModule as ngFormsModule } from '@angular/forms';
+import {FollowingCustomsComponent} from './following-customs/following-customs.component';
 
 @NgModule({
   imports: [
@@ -42,6 +43,7 @@ import { FormsModule as ngFormsModule } from '@angular/forms';
     FormInputsComponent,
     FormLayoutsComponent,
     DatepickerComponent,
+    FollowingCustomsComponent,
   ],
 })
 export class FormsModule { }

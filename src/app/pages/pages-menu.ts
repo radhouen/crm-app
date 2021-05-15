@@ -82,7 +82,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
           },
           {
             title: 'متابعة مخلصي الجمارك ',
-            link: '/pages/forms/inputs',
+            link: '/pages/forms/following-customs',
           },
           {
             title: 'متابعة الاستلامات ',

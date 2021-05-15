@@ -6,6 +6,8 @@ import { FormInputsComponent } from './form-inputs/form-inputs.component';
 import { MainComponent } from './main/main.component';
 import { CenteringMainComponent } from './centering-main/centering-main.component';
 import { CenteringNewComponent } from './centering-new/centering-new.component';
+import { ContainerMainComponent } from './container-main/container-main.component';
+import { ContainerNewComponent } from './container-new/container-new.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import {OutsideComponent} from './outside/outside.component';
@@ -49,6 +51,14 @@ const routes: Routes = [
       {
         path: 'centering-new',
         component: CenteringNewComponent,
+      },
+      {
+        path: 'container-main',
+        component: ContainerMainComponent,
+      },
+      {
+        path: 'container-new',
+        component: ContainerNewComponent,
       },
       {
         path: 'buttons',

@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 // import {PurchaseService } from '../../../@core/mock/purchase.service'
 @Component({
   selector: 'ngx-form-inputs',
-  styleUrls: ['./container-new.component.scss'],
-  templateUrl: './container-new.component.html',
+  styleUrls: ['./receiving-permission-new.component.scss'],
+  templateUrl: './receiving-permission-new.component.html',
 })
-export class ContainerNewComponent {
+export class ReceivingPermissionNewComponent {
 
   starRate = 2;
   heartRate = 4;

@@ -8,7 +8,7 @@ import { DismissalNoticeMainComponent } from './dismissal-notice-main/dismissal-
 import { CenteringMainComponent } from './centering-main/centering-main.component';
 import { CenteringNewComponent } from './centering-new/centering-new.component';
 import { ContainerMainComponent } from './container-main/container-main.component';
-import { ContainerNewComponent } from './container-new/container-new.component';
+import { ReceivingPermissionNewComponent } from './receiving-permission-new/receiving-permission-new.component';
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import {OutsideComponent} from './outside/outside.component';
@@ -78,8 +78,8 @@ const routes: Routes = [
         component: ContainerMainComponent,
       },
       {
-        path: 'container-new',
-        component: ContainerNewComponent,
+        path: 'receiving-permission-new',
+        component: ReceivingPermissionNewComponent,
       },
       {
         path: 'buttons',

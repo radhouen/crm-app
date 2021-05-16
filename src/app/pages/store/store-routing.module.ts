@@ -16,6 +16,7 @@ import {RecoveriesComponent} from './recoveries/recoveries.component';
 import {FollowingCustomsComponent} from '../forms/following-customs/following-customs.component';
 import {TransferredStoreComponent} from './transferred-store/transferred-store.component';
 import {TransferredStoreInputsComponent} from './transferred-store-inputs/transferred-store-inputs.component';
+import {RecoveryInputsComponent} from './recovery-inputs/recovery-inputs.component';
 
 const routes: Routes = [
   {
@@ -53,6 +54,10 @@ const routes: Routes = [
       {
         path: 'transferred-store-inputs',
         component: TransferredStoreInputsComponent,
+      },
+      {
+        path: 'recovery-inputs',
+        component: RecoveryInputsComponent,
       },
       {
         path: 'centering-new',

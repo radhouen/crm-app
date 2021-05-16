@@ -12,10 +12,10 @@ import {
 } from '@nebular/theme';
 
 import { ThemeModule } from '../../@theme/theme.module';
-import { PurchaseRoutingModule } from './store-routing.module';
+import { StoreRoutingModule } from './store-routing.module';
 import { StoreComponent } from './store.component';
 import { FormInputsComponent } from './form-inputs/form-inputs.component';
-import { MainComponent } from './main/main.component';
+import { ReceivingPermissionMainComponent } from './receiving-permission-main/receiving-permission-main.component';
 import { CenteringMainComponent } from './centering-main/centering-main.component';
 import { CenteringNewComponent } from './centering-new/centering-new.component';
 import { ContainerMainComponent } from './container-main/container-main.component';
@@ -38,7 +38,7 @@ import {BrokeredFeeComponent} from './brokered-fee/brokered-fee.component';
     NbCheckboxModule,
     NbRadioModule,
     NbDatepickerModule,
-    PurchaseRoutingModule,
+    StoreRoutingModule,
     NbSelectModule,
     NbIconModule,
     ngFormsModule,
@@ -47,7 +47,7 @@ import {BrokeredFeeComponent} from './brokered-fee/brokered-fee.component';
     StoreComponent,
     ButtonsComponent,
     FormInputsComponent,
-    MainComponent,
+    ReceivingPermissionMainComponent,
     CenteringMainComponent,
     ContainerMainComponent,
     ContainerNewComponent,

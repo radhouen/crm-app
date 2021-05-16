@@ -130,7 +130,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
           },
           {
             title: 'تعديل مخزون',
-            link: '/pages/forms/inputs',
+            link: '/pages/store/modification-stock',
           },
         ],
       },

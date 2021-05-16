@@ -18,6 +18,7 @@ import {FollowingCustomsComponent} from '../forms/following-customs/following-cu
 import {TransferredStoreComponent} from './transferred-store/transferred-store.component';
 import {TransferredStoreInputsComponent} from './transferred-store-inputs/transferred-store-inputs.component';
 import {RecoveryInputsComponent} from './recovery-inputs/recovery-inputs.component';
+import {ModificationStockComponent} from './modification-stock/modification-stock.component';
 
 const routes: Routes = [
   {
@@ -63,6 +64,10 @@ const routes: Routes = [
       {
         path: 'recovery-inputs',
         component: RecoveryInputsComponent,
+      },
+      {
+        path: 'modification-stock',
+        component: ModificationStockComponent,
       },
       {
         path: 'centering-new',

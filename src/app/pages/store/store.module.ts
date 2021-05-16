@@ -30,6 +30,7 @@ import {RecoveriesComponent} from './recoveries/recoveries.component';
 import {TransferredStoreComponent} from './transferred-store/transferred-store.component';
 import {TransferredStoreInputsComponent} from './transferred-store-inputs/transferred-store-inputs.component';
 import {RecoveryInputsComponent} from './recovery-inputs/recovery-inputs.component';
+import {ModificationStockComponent} from './modification-stock/modification-stock.component';
 
 @NgModule({
   imports: [
@@ -64,6 +65,7 @@ import {RecoveryInputsComponent} from './recovery-inputs/recovery-inputs.compone
     TransferredStoreComponent,
     TransferredStoreInputsComponent,
     RecoveryInputsComponent,
+    ModificationStockComponent,
   ],
 })
 export class StoreModule { }

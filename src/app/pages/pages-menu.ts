@@ -114,7 +114,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         children: [
           {
             title: 'إذن إستلام',
-            link: '/pages/forms/inputs',
+            link: '/pages/store/receiving-permission-main',
           },
           {
             title: 'إذن صرف',

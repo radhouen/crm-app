@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { StoreComponent } from './store.component';
 import { FormInputsComponent } from './form-inputs/form-inputs.component';
-import { MainComponent } from './main/main.component';
+import { ReceivingPermissionMainComponent } from './receiving-permission-main/receiving-permission-main.component';
 import { CenteringMainComponent } from './centering-main/centering-main.component';
 import { CenteringNewComponent } from './centering-new/centering-new.component';
 import { ContainerMainComponent } from './container-main/container-main.component';
@@ -27,8 +27,8 @@ const routes: Routes = [
         component: FormInputsComponent,
       },
       {
-        path: 'main',
-        component: MainComponent,
+        path: 'receiving-permission-main',
+        component: ReceivingPermissionMainComponent,
       },
       {
         path: 'outside',
@@ -37,10 +37,6 @@ const routes: Routes = [
       {
         path: 'outside-detail',
         component: OutsideDetailComponent,
-      },
-      {
-        path: 'layouts',
-        component: MainComponent,
       },
       {
         path: 'centering-main',
@@ -90,6 +86,6 @@ const routes: Routes = [
     RouterModule,
   ],
 })
-export class PurchaseRoutingModule {
+export class StoreRoutingModule {
 }
 

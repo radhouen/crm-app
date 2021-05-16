@@ -69,7 +69,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
           },
           {
             title: 'توسيط برسم تحصيل',
-            link: '/pages/purchase/brokered-fee',
+            link: '/pages/purchase/recoveries',
           },
         ],
       },
@@ -122,11 +122,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
           },
           {
             title: 'نقل مخزون',
-            link: '/pages/forms/inputs',
+            link: '/pages/store/transferred-store',
           },
           {
             title: 'مسترجعات',
-            link: '/pages/forms/inputs',
+            link: '/pages/store/recoveries',
           },
           {
             title: 'تعديل مخزون',

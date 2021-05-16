@@ -12,8 +12,10 @@ import { DatepickerComponent } from './datepicker/datepicker.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import {OutsideComponent} from './outside/outside.component';
 import {OutsideDetailComponent} from './outside-detail/outside-detail.component';
-import {BrokeredFeeComponent} from './brokered-fee/brokered-fee.component';
+import {RecoveriesComponent} from './recoveries/recoveries.component';
 import {FollowingCustomsComponent} from '../forms/following-customs/following-customs.component';
+import {TransferredStoreComponent} from './transferred-store/transferred-store.component';
+import {TransferredStoreInputsComponent} from './transferred-store-inputs/transferred-store-inputs.component';
 
 const routes: Routes = [
   {
@@ -45,8 +47,16 @@ const routes: Routes = [
         component: CenteringMainComponent,
       },
       {
-        path: 'brokered-fee',
-        component: BrokeredFeeComponent,
+        path: 'recoveries',
+        component: RecoveriesComponent,
+      },
+      {
+        path: 'transferred-store',
+        component: TransferredStoreComponent,
+      },
+      {
+        path: 'transferred-store-inputs',
+        component: TransferredStoreInputsComponent,
       },
       {
         path: 'centering-new',

@@ -25,7 +25,9 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { FormsModule as ngFormsModule } from '@angular/forms';
 import {OutsideComponent} from './outside/outside.component';
 import {OutsideDetailComponent} from './outside-detail/outside-detail.component';
-import {BrokeredFeeComponent} from './brokered-fee/brokered-fee.component';
+import {RecoveriesComponent} from './recoveries/recoveries.component';
+import {TransferredStoreComponent} from './transferred-store/transferred-store.component';
+import {TransferredStoreInputsComponent} from './transferred-store-inputs/transferred-store-inputs.component';
 
 @NgModule({
   imports: [
@@ -55,7 +57,9 @@ import {BrokeredFeeComponent} from './brokered-fee/brokered-fee.component';
     DatepickerComponent,
     OutsideComponent,
     OutsideDetailComponent,
-    BrokeredFeeComponent,
+    RecoveriesComponent,
+    TransferredStoreComponent,
+    TransferredStoreInputsComponent,
   ],
 })
 export class StoreModule { }

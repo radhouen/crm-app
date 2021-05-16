@@ -118,7 +118,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
           },
           {
             title: 'إذن صرف',
-            link: '/pages/forms/inputs',
+            link: '/pages/store/dismissal-notice-main',
           },
           {
             title: 'نقل مخزون',

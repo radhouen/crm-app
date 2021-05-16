@@ -1,0 +1,75 @@
+<div class="row">
+
+  <div class="col-lg-12">
+    <nb-card>
+      <nb-card-header> نقل مخزون  </nb-card-header>
+      <nb-card-body>
+        <!--input type="text" nbInput fullWidth placeholder="Project"-->
+        <div class="full-name-inputs">
+          <input type="text" nbInput fullWidth placeholder=" الرقم التسلسلي " />
+          <input type="number" nbInput fullWidth placeholder="تاريخ التحويل " />
+          <!--<input type="number" nbInput fullWidth placeholder="إجمالي الفاتورة " /> -->
+        </div>
+        <div class="full-name-inputs">
+          <input type="text" nbInput fullWidth placeholder="الوزن " />
+          <input type="number" nbInput fullWidth placeholder="الكمية " />
+          <input type="number" nbInput fullWidth placeholder="البضاعة " />
+        </div>
+        <div class="full-name-inputs">
+          <input type="text" nbInput fullWidth placeholder="المخزن المنقول منه" />
+          <input type="number" nbInput fullWidth placeholder="المخزن المنقول إليه" />
+          <button type="submit" nbInput fullWidth nbButton status="info"> إضافة </button>
+        </div>
+
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+  <div class="col-lg-12">
+    <nb-card>
+      <nb-card-header>
+        <a routerLink="/pages/store/transferred-store-inputs" class="add-btn">
+          <button class="btn">  <i class="fa fa-plus"></i> تسجيل </button>
+        </a>
+      </nb-card-header>
+      <nb-card-body>
+        <table class="table">
+          <thead>
+            <tr>
+              <td> ترقيم</td>
+              <td> البضاعة</td>
+              <td>الكمية</td>
+              <td>الوزن</td>
+              <!--<td>السعر</td>
+              <td>تاريخ الصنع</td>
+              <td>تاريخ الصلوحية</td> -->
+              <td>الإعدادات</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td> دجاج</td>
+              <td>10</td>
+              <td>12</td>
+              <!--<td>120</td>
+              <td> 11/1/2021</td>
+              <td> 12/12/2023</td> -->
+              <td>
+                <a href="#" class="view" title="View" data-toggle="tooltip"
+                  ><i class="material-icons">&#xE417;</i></a
+                >
+                <a href="#" class="edit" title="Edit" data-toggle="tooltip"
+                  ><i class="material-icons">&#xE254;</i></a
+                >
+                <a href="#" class="delete" title="Delete" data-toggle="tooltip"
+                  ><i class="material-icons">&#xE872;</i></a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>

@@ -45,7 +45,7 @@ const routes: Routes = [
         component: CenteringMainComponent,
       },
       {
-        path: 'brokered-fee',
+        path: 'recoveries',
         component: BrokeredFeeComponent,
       },
       {

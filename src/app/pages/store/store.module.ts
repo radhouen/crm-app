@@ -17,6 +17,7 @@ import { StoreComponent } from './store.component';
 import { FormInputsComponent } from './form-inputs/form-inputs.component';
 import { ReceivingPermissionMainComponent } from './receiving-permission-main/receiving-permission-main.component';
 import { DismissalNoticeMainComponent } from './dismissal-notice-main/dismissal-notice-main.component';
+import { DismissalNoticeNewComponent } from './dismissal-notice-new/dismissal-notice-new.component';
 import { CenteringMainComponent } from './centering-main/centering-main.component';
 import { CenteringNewComponent } from './centering-new/centering-new.component';
 import { ContainerMainComponent } from './container-main/container-main.component';
@@ -54,6 +55,7 @@ import {ModificationStockComponent} from './modification-stock/modification-stoc
     FormInputsComponent,
     ReceivingPermissionMainComponent,
     DismissalNoticeMainComponent,
+    DismissalNoticeNewComponent,
     CenteringMainComponent,
     ContainerMainComponent,
     ReceivingPermissionNewComponent,

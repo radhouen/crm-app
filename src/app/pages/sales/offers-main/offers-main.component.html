@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-lg-12">
+    <nb-card>
+    <nb-card-header>
+    <a routerLink="/pages/purchase/centering-new" class="add-btn">
+        <button class="btn">  <i class="fa fa-plus"></i> إضافة عرض  </button>
+    </a>
+</nb-card-header>
+      <nb-card-body>
+        <table class="table table-borderless table-hover">
+          <thead>
+            <tr>
+              <td> الرقم التسلسلي  </td>
+              <td>  إسم الزبون</td>
+              <td> الإجمالي </td>
+              <td>  التاريخ </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let number of [0,1,2,3,4]">
+              <td>102987653</td>
+              <td>رضوان عساكرة</td>
+              <td> 1500 </td>
+              <td>12-01-2021</td>
+              <td>
+                <a href="#" class="view" title="View" data-toggle="tooltip"
+                  ><i class="material-icons">&#xE417;</i></a
+                >
+                <a href="#" class="edit" title="Edit" data-toggle="tooltip"
+                  ><i class="material-icons">&#xE254;</i></a
+                >
+                <a href="#" class="delete" title="Delete" data-toggle="tooltip"
+                  ><i class="material-icons">&#xE872;</i></a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>

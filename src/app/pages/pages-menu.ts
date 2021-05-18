@@ -147,7 +147,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
           },
           {
             title: 'عروض',
-            link: '/pages/forms/inputs',
+            link: '/pages/sales/offers-main',
           },
           {
             title: 'إيصال قبض',

@@ -18,6 +18,7 @@ import { FormInputsComponent } from './form-inputs/form-inputs.component';
 import { FacturesComponent } from './factures/factures.component';
 import { DismissalNoticeMainComponent } from './dismissal-notice-main/dismissal-notice-main.component';
 import { BillsMainComponent } from './bills-main/bills-main.component';
+import { OffersMainComponent } from './offers-main/offers-main.component';
 import { CenteringNewComponent } from './centering-new/centering-new.component';
 import { ContainerMainComponent } from './container-main/container-main.component';
 import { ReceivingPermissionNewComponent } from './receiving-permission-new/receiving-permission-new.component';
@@ -55,6 +56,7 @@ import {ModificationStockComponent} from './modification-stock/modification-stoc
     FacturesComponent,
     DismissalNoticeMainComponent,
     BillsMainComponent,
+    OffersMainComponent,
     ContainerMainComponent,
     ReceivingPermissionNewComponent,
     CenteringNewComponent,

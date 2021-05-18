@@ -1,11 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { StoreComponent } from './store.component';
+import { SalesComponent } from './sales.component';
 import { FormInputsComponent } from './form-inputs/form-inputs.component';
-import { ReceivingPermissionMainComponent } from './receiving-permission-main/receiving-permission-main.component';
+import { FacturesComponent } from './factures/factures.component';
 import { DismissalNoticeMainComponent } from './dismissal-notice-main/dismissal-notice-main.component';
-import { DismissalNoticeNewComponent } from './dismissal-notice-new/dismissal-notice-new.component';
 import { CenteringMainComponent } from './centering-main/centering-main.component';
 import { CenteringNewComponent } from './centering-new/centering-new.component';
 import { ContainerMainComponent } from './container-main/container-main.component';
@@ -24,7 +23,7 @@ import {ModificationStockComponent} from './modification-stock/modification-stoc
 const routes: Routes = [
   {
     path: '',
-    component: StoreComponent,
+    component: SalesComponent,
     children: [
       {
         path: 'inputs',
@@ -32,15 +31,11 @@ const routes: Routes = [
       },
       {
         path: 'factures',
-        component: ReceivingPermissionMainComponent,
+        component: FacturesComponent,
       },
       {
         path: 'dismissal-notice-main',
         component: DismissalNoticeMainComponent,
-      },
-      {
-        path: 'dismissal-notice-new',
-        component: DismissalNoticeNewComponent,
       },
       {
         path: 'outside',
@@ -106,6 +101,6 @@ const routes: Routes = [
     RouterModule,
   ],
 })
-export class StoreRoutingModule {
+export class SalesRoutingModule {
 }
 

@@ -114,7 +114,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         children: [
           {
             title: 'إذن إستلام',
-            link: '/pages/store/receiving-permission-main',
+            link: '/pages/store/factures',
           },
           {
             title: 'إذن صرف',
@@ -139,7 +139,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         children: [
           {
             title: 'فواتير',
-            link: '/pages/forms/inputs',
+            link: '/pages/sales/factures',
           },
           {
             title: 'تخفيضات',

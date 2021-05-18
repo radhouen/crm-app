@@ -40,6 +40,11 @@ const routes: Routes = [
           import('./store/store.module').then((m) => m.StoreModule),
       },
       {
+        path: 'sales',
+        loadChildren: () =>
+          import('./sales/sales.module').then((m) => m.SalesModule),
+      },
+      {
         path: 'ui-features',
         loadChildren: () =>
           import('./ui-features/ui-features.module').then(

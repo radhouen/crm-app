@@ -1,0 +1,112 @@
+<div class="row">
+
+  <div class="col-lg-12">
+    <nb-card>
+      <nb-card-header>  معلومات عن الفاتورة  </nb-card-header>
+      <nb-card-body>
+        <!--input type="text" nbInput fullWidth placeholder="Project"-->
+        <div class="full-name-inputs">
+          <input type="text" nbInput fullWidth placeholder=" التاريخ " />
+          <input type="number" nbInput fullWidth placeholder="رقم الفاتورة " />
+          <input type="number" nbInput fullWidth placeholder="إجمالي الفاتورة " />
+        </div>
+        <div class="full-name-inputs">
+          <input type="text" nbInput fullWidth placeholder="إسم المورد " />
+          <input type="number" nbInput fullWidth placeholder=" رقم الطلبية " />
+          <button type="submit" nbInput fullWidth nbButton status="info"> تسجيل  </button>
+        </div>
+
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+  <div class="col-lg-12">
+    <nb-card>
+      <nb-card-header>   معلومات عن البضاعة  </nb-card-header>
+      <nb-card-body>
+        <!--input type="text" nbInput fullWidth placeholder="Project"-->
+        <div class="row show-grid">
+          <div class="col-md-6">
+           <input type="text" nbInput fullWidth placeholder="إسم البضاعة" />
+          </div>
+          <div class="col-md-6">
+          <input type="number" nbInput fullWidth placeholder="الكمية" />
+          </div>
+        </div>
+
+        <div class="row show-grid">
+          <div class="col-md-6">
+            <input type="number" nbInput fullWidth placeholder="السعر" />
+          </div>
+          <div class="col-md-6">
+          <input type="number" nbInput fullWidth placeholder="الوزن" />
+          </div>
+        </div>
+
+        <div class="row show-grid">
+          <div class="col-md-12">
+              <p>تاريخ الصلوحية</p>
+          </div>
+        </div>
+        <div class="row show-grid">
+          <div class="col-md-1">
+           <label> من </label>
+           </div>
+          <div class="col-md-5">
+              <input type="date" nbInput fullWidth placeholder="تاريخ الصنع" />
+          </div>
+          <div class="col-md-1">
+            <label> إلى </label>
+           </div>
+          <div class="col-md-5">
+                <input type="date" nbInput fullWidth placeholder="تاريخ الصلوحية" />
+          </div>
+        </div>
+        <div class="buttons-row">
+        <button type="submit" nbInput fullWidth nbButton status="info"> إضافة   </button>
+        </div>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+  <div class="col-lg-12">
+    <nb-card>
+      <nb-card-body>
+        <table class="table">
+          <thead>
+            <tr>
+              <td>إسم البضاعة</td>
+              <td>الكمية</td>
+              <td>الوزن</td>
+              <td>السعر</td>
+              <td>تاريخ الصنع</td>
+              <td>تاريخ الصلوحية</td>
+              <td>الإعدادات</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> دجاج</td>
+              <td>10</td>
+              <td>12</td>
+              <td>120</td>
+              <td> 11/1/2021</td>
+              <td> 12/12/2023</td>
+              <td>
+                <a href="#" class="view" title="View" data-toggle="tooltip"
+                  ><i class="material-icons">&#xE417;</i></a
+                >
+                <a href="#" class="edit" title="Edit" data-toggle="tooltip"
+                  ><i class="material-icons">&#xE254;</i></a
+                >
+                <a href="#" class="delete" title="Delete" data-toggle="tooltip"
+                  ><i class="material-icons">&#xE872;</i></a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>

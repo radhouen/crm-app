@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 // import {PurchaseService } from '../../../@core/mock/purchase.service'
 @Component({
-  selector: 'ngx-form-inputs',
-  styleUrls: ['./centering-new.component.scss'],
-  templateUrl: './centering-new.component.html',
+  selector: 'ngx-form-bills-new',
+  styleUrls: ['./bills-new.component.scss'],
+  templateUrl: './bills-new.component.html',
 })
-export class CenteringNewComponent {
+export class BillsNewComponent {
 
   starRate = 2;
   heartRate = 4;

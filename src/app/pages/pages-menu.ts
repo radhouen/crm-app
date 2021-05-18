@@ -139,7 +139,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         children: [
           {
             title: 'فواتير',
-            link: '/pages/sales/factures',
+            link: '/pages/sales/bills-main',
           },
           {
             title: 'تخفيضات',

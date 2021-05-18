@@ -3,24 +3,25 @@
     <nb-card>
     <nb-card-header>
     <a routerLink="/pages/purchase/centering-new" class="add-btn">
-        <button class="btn">  <i class="fa fa-plus"></i> إضافة الإعتماد  </button>
+        <button class="btn">  <i class="fa fa-plus"></i> إضافة فاتورة  </button>
     </a>
 </nb-card-header>
       <nb-card-body>
         <table class="table table-borderless table-hover">
           <thead>
             <tr>
-              <td> قيمة الإعتماد </td>
-              <td> فاتح الإعتماد</td>
-              <td>بضاعة الإعتماد</td>
-              <td>رقم  الإعتماد</td>
+              <td> الرقم التسلسلي  </td>
+              <td>  إسم الزبون</td>
+              <td> الإجمالي </td>
+              <td>  التاريخ </td>
             </tr>
           </thead>
           <tbody>
             <tr *ngFor="let number of [0,1,2,3,4]">
-              <td>10</td>
-              <td>12</td>
-              <td>120</td>
+              <td>102987653</td>
+              <td>رضوان عساكرة</td>
+              <td> 1500 </td>
+              <td>12-01-2021</td>
               <td>
                 <a href="#" class="view" title="View" data-toggle="tooltip"
                   ><i class="material-icons">&#xE417;</i></a

@@ -5,7 +5,7 @@ import { SalesComponent } from './sales.component';
 import { FormInputsComponent } from './form-inputs/form-inputs.component';
 import { FacturesComponent } from './factures/factures.component';
 import { DismissalNoticeMainComponent } from './dismissal-notice-main/dismissal-notice-main.component';
-import { CenteringMainComponent } from './centering-main/centering-main.component';
+import { BillsMainComponent } from './bills-main/bills-main.component';
 import { CenteringNewComponent } from './centering-new/centering-new.component';
 import { ContainerMainComponent } from './container-main/container-main.component';
 import { ReceivingPermissionNewComponent } from './receiving-permission-new/receiving-permission-new.component';
@@ -46,8 +46,8 @@ const routes: Routes = [
         component: OutsideDetailComponent,
       },
       {
-        path: 'centering-main',
-        component: CenteringMainComponent,
+        path: 'bills-main',
+        component: BillsMainComponent,
       },
       {
         path: 'recoveries',

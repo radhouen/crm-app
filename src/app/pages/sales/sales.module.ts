@@ -32,6 +32,7 @@ import {TransferredStoreComponent} from './transferred-store/transferred-store.c
 import {TransferredStoreInputsComponent} from './transferred-store-inputs/transferred-store-inputs.component';
 import {RecoveryInputsComponent} from './recovery-inputs/recovery-inputs.component';
 import {ModificationStockComponent} from './modification-stock/modification-stock.component';
+import { DiscountMainComponent } from './discount-main/discount-main.component';
 
 @NgModule({
   imports: [
@@ -56,6 +57,7 @@ import {ModificationStockComponent} from './modification-stock/modification-stoc
     FacturesComponent,
     DismissalNoticeMainComponent,
     BillsMainComponent,
+    DiscountMainComponent,
     OffersMainComponent,
     ContainerMainComponent,
     ReceivingPermissionNewComponent,

@@ -143,7 +143,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
           },
           {
             title: 'تخفيضات',
-            link: '/pages/forms/inputs',
+            link: '/pages/sales/discount-main',
           },
           {
             title: 'عروض',

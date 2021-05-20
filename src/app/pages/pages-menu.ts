@@ -151,7 +151,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
           },
           {
             title: 'إيصال قبض',
-            link: '/pages/forms/inputs',
+            link: '/pages/sales/receipt-main',
           },
           {
             title: 'تقارير',

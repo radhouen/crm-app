@@ -35,7 +35,8 @@ import {ModificationStockComponent} from './modification-stock/modification-stoc
 import { DiscountMainComponent } from './discount-main/discount-main.component';
 import { DiscountNewComponent } from './discount-new/discount-new.component';
 import { OffersNewComponent } from './offers-new/offers-new.component';
-
+import { ReceiptMainComponent } from './receipt-main/receipt-main.component';
+import { ReceiptNewComponent } from './receipt-new/receipt-new.component';
 @NgModule({
   imports: [
     ThemeModule,
@@ -63,6 +64,8 @@ import { OffersNewComponent } from './offers-new/offers-new.component';
     DiscountNewComponent,
     OffersMainComponent,
     OffersNewComponent,
+    ReceiptMainComponent,
+    ReceiptNewComponent,
     ContainerMainComponent,
     ReceivingPermissionNewComponent,
     BillsNewComponent,

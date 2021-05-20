@@ -23,6 +23,8 @@ import {TransferredStoreComponent} from './transferred-store/transferred-store.c
 import {TransferredStoreInputsComponent} from './transferred-store-inputs/transferred-store-inputs.component';
 import {RecoveryInputsComponent} from './recovery-inputs/recovery-inputs.component';
 import {ModificationStockComponent} from './modification-stock/modification-stock.component';
+import { ReceiptMainComponent } from './receipt-main/receipt-main.component';
+import { ReceiptNewComponent } from './receipt-new/receipt-new.component';
 
 const routes: Routes = [
   {
@@ -68,6 +70,14 @@ const routes: Routes = [
       {
         path: 'offers-main',
         component: OffersMainComponent,
+      },
+      {
+        path: 'receipt-new',
+        component: ReceiptNewComponent,
+      },
+      {
+        path: 'receipt-main',
+        component: ReceiptMainComponent,
       },
       {
         path: 'recoveries',

@@ -33,6 +33,7 @@ import {TransferredStoreInputsComponent} from './transferred-store-inputs/transf
 import {RecoveryInputsComponent} from './recovery-inputs/recovery-inputs.component';
 import {ModificationStockComponent} from './modification-stock/modification-stock.component';
 import { DiscountMainComponent } from './discount-main/discount-main.component';
+import { DiscountNewComponent } from './discount-new/discount-new.component';
 
 @NgModule({
   imports: [
@@ -58,6 +59,7 @@ import { DiscountMainComponent } from './discount-main/discount-main.component';
     DismissalNoticeMainComponent,
     BillsMainComponent,
     DiscountMainComponent,
+    DiscountNewComponent,
     OffersMainComponent,
     ContainerMainComponent,
     ReceivingPermissionNewComponent,

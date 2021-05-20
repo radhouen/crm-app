@@ -7,6 +7,7 @@ import { FacturesComponent } from './factures/factures.component';
 import { DismissalNoticeMainComponent } from './dismissal-notice-main/dismissal-notice-main.component';
 import { BillsMainComponent } from './bills-main/bills-main.component';
 import { OffersMainComponent } from './offers-main/offers-main.component';
+import { OffersNewComponent } from './offers-new/offers-new.component';
 import { DiscountMainComponent } from './discount-main/discount-main.component';
 import { DiscountNewComponent } from './discount-new/discount-new.component';
 import { BillsNewComponent } from './bills-new/bills-new.component';
@@ -59,6 +60,10 @@ const routes: Routes = [
       {
         path: 'discount-new',
         component: DiscountNewComponent,
+      },
+      {
+        path: 'offers-new',
+        component: OffersNewComponent,
       },
       {
         path: 'offers-main',

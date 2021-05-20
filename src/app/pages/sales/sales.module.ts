@@ -34,6 +34,7 @@ import {RecoveryInputsComponent} from './recovery-inputs/recovery-inputs.compone
 import {ModificationStockComponent} from './modification-stock/modification-stock.component';
 import { DiscountMainComponent } from './discount-main/discount-main.component';
 import { DiscountNewComponent } from './discount-new/discount-new.component';
+import { OffersNewComponent } from './offers-new/offers-new.component';
 
 @NgModule({
   imports: [
@@ -61,6 +62,7 @@ import { DiscountNewComponent } from './discount-new/discount-new.component';
     DiscountMainComponent,
     DiscountNewComponent,
     OffersMainComponent,
+    OffersNewComponent,
     ContainerMainComponent,
     ReceivingPermissionNewComponent,
     BillsNewComponent,

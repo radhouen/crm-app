@@ -5,15 +5,12 @@
       <nb-card-header>  إضافة التخفيض    </nb-card-header>
       <nb-card-body>
         <div class="full-name-inputs">
-          <input type="text" nbInput fullWidth placeholder="   رقم الفاتورة  " />
           <input type="number" nbInput fullWidth placeholder="    إسم الزبون " />
-        </div>
-        <div class="full-name-inputs">
           <input type="date" nbInput fullWidth placeholder=" التاريخ" />
-          <input type="number" nbInput fullWidth placeholder=" الرقم التسلسلي" />
         </div>
 
         <div class="full-name-inputs">
+          <input type="number" nbInput fullWidth placeholder=" الرقم التسلسلي" />
           <button type="submit" nbInput fullWidth nbButton status="info"> تسجيل  </button>
         </div>
 
@@ -33,8 +30,7 @@
               <td>الكمية</td>
               <td>الوزن</td>
               <td> السعر  </td>
-              <td>  التخفيض </td>
-              <td>الإعدادات</td>
+              <td>  الإجمالي </td>
             </tr>
           </thead>
           <tbody>
@@ -44,18 +40,7 @@
               <td>10</td>
               <td>12</td>
               <td>12.5</td>
-              <td>1%</td>
-              <td>
-                <a href="#" class="view" title="View" data-toggle="tooltip"
-                  ><i class="material-icons">&#xE417;</i></a
-                >
-                <a href="#" class="edit" title="Edit" data-toggle="tooltip"
-                  ><i class="material-icons">&#xE254;</i></a
-                >
-                <a href="#" class="delete" title="Delete" data-toggle="tooltip"
-                  ><i class="material-icons">&#xE872;</i></a
-                >
-              </td>
+              <td>120</td>
             </tr>
           </tbody>
         </table>

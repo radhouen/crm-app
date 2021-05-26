@@ -12,10 +12,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //   icon: 'home-outline',
   //   link: '/pages/iot-dashboard',
   // },
-  {
-    title: 'الميزات',
-    group: true,
-  },
+  // {
+  //   title: 'الميزات',
+  //   group: true,
+  // },
   // {
   //   title: 'Layout',
   //   icon: 'layout-outline',

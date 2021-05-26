@@ -6,7 +6,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AnalyticsService } from './@core/utils/analytics.service';
 import { SeoService } from './@core/utils/seo.service';
-import { NbLayoutDirection, NbLayoutDirectionService } from '@nebular/theme';
+import { NbLayoutDirection, NbLayoutDirectionService, NbThemeService } from '@nebular/theme';
 
 @Component({
   selector: 'ngx-app',
@@ -17,11 +17,13 @@ export class AppComponent implements OnInit {
     private analytics: AnalyticsService,
     private directionService: NbLayoutDirectionService,
     private seoService: SeoService,
+    private themeService: NbThemeService
   ) {}
 
   ngOnInit(): void {
     this.analytics.trackPageViews();
     this.seoService.trackCanonicalChanges();
     this.directionService.setDirection(NbLayoutDirection.RTL);
-  }
+    this.themeService.changeTheme('cosmic');
+}
 }

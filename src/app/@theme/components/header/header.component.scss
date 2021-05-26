@@ -12,7 +12,10 @@
     align-items: center;
     width: calc(#{nb-theme(sidebar-width)} - #{nb-theme(header-padding)});
   }
-
+  .logo {
+    height: 50%;
+    width: 50%;
+  }
   nb-action {
     height: auto;
     display: flex;
